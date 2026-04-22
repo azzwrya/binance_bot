@@ -1,0 +1,12 @@
+2026-04-22 20:14:08,942 [INFO] bot.client: Sending Order Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.05}
+2026-04-22 20:14:09,243 [INFO] bot.client: Order Successful. Order ID: 13061707459
+2026-04-22 20:14:09,243 [INFO] bot.cli: --- UI SUMMARY: BUY 0.05 BTCUSDT | Type: MARKET | ID: 13061707459 | Status: NEW ---
+2026-04-22 20:14:26,526 [INFO] bot.client: Sending Order Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.05, 'price': '50000.0', 'timeInForce': 'GTC'}
+2026-04-22 20:14:26,729 [INFO] bot.client: Order Successful. Order ID: 13061709418
+2026-04-22 20:14:26,734 [INFO] bot.cli: --- UI SUMMARY: BUY 0.05 BTCUSDT | Type: LIMIT | ID: 13061709418 | Status: NEW ---
+2026-04-22 20:14:42,712 [INFO] bot.client: Sending Order Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': 0.05}
+2026-04-22 20:14:42,909 [INFO] bot.client: Order Successful. Order ID: 13061712133
+2026-04-22 20:14:42,909 [INFO] bot.cli: --- UI SUMMARY: SELL 0.05 BTCUSDT | Type: MARKET | ID: 13061712133 | Status: NEW ---
+2026-04-22 20:15:01,499 [INFO] bot.client: Sending Order Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.05, 'price': '70000.0', 'timeInForce': 'GTC'}
+2026-04-22 20:15:01,680 [ERROR] bot.client: Binance API Error: Limit price can't be lower than 74718.22. (Code: -4024)
+2026-04-22 20:15:01,680 [ERROR] bot.cli: --- UI SUMMARY: FAILED to execute SELL 0.05 BTCUSDT ---
